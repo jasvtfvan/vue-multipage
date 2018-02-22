@@ -81,12 +81,12 @@ npm run build --report
 >> import Vue from 'vue'<br>
 >> import '@/assets/css/common.css'<br>
 >> export default function (App, ele = '#app') {<br>
->>   Vue.config.productionTip = false<br>
->>   new Vue({<br>
->>     el: ele,<br>
->>     template: '<App/>',<br>
->>     components: { App }<br>
->>   })<br>
+>>  Vue.config.productionTip = false<br>
+>>  new Vue({<br>
+>>    el: ele,<br>
+>>    template: '<App/>',<br>
+>>    components: { App }<br>
+>>  })<br>
 >> }<br>
 
 > views/home/home.js
@@ -95,5 +95,6 @@ npm run build --report
 >> import Home from './Home.vue'<br>
 >> render(Home)<br>
 
-
+<br>
+<br>
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
