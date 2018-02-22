@@ -71,4 +71,29 @@ npm run build --report
     |--- common.js 定义window全局变量，打包后可配置局域网地址等
 ```
 
+## description of some js 部分js说明
+
+> static/common.js
+>> console.log("common")
+>> //window.aaa = aaa //可在vue中引用
+
+> main.js 全局引用js
+>> import Vue from 'vue'
+>> import '@/assets/css/common.css'
+>> export default function (App, ele = '#app') {
+>>   Vue.config.productionTip = false
+>>   new Vue({
+>>     el: ele,
+>>     template: '<App/>',
+>>     components: { App }
+>>   })
+>> }
+
+> views/home/home.js
+>> import render from '@/main'
+>> import '@/assets/css/home/home.css'
+>> import Home from './Home.vue'
+>> render(Home)
+
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
