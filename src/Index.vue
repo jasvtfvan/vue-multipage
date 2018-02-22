@@ -1,15 +1,20 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <p>欢迎来到vue多页应用</p>
+    <p>
+      <a href="./views/home/home.html">跳转至home页面</a>
+      <a href="./views/setting/setting.html">跳转至设置页面</a>
+    </p>
+    <img src="@/assets/img/logo.png">
     <HelloWorld/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from '@/components/HelloWorld/HelloWorld'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     HelloWorld
   }
