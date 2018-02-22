@@ -74,26 +74,32 @@ npm run build --report
 ## description of some js 部分js说明
 
 > static/common.js
->> console.log("common")<br>
->> //window.aaa = aaa //可在vue中引用<br>
+``` bash
+console.log("common")
+//window.aaa = aaa //可在vue中引用
+```
 
 > main.js 全局引用js
->> import Vue from 'vue'<br>
->> import '@/assets/css/common.css'<br>
->> export default function (App, ele = '#app') {<br>
->>  Vue.config.productionTip = false<br>
->>  new Vue({<br>
->>    el: ele,<br>
->>    template: '<App/>',<br>
->>    components: { App }<br>
->>  })<br>
->> }<br>
+``` bash
+import Vue from 'vue'
+import '@/assets/css/common.css'
+export default function (App, ele = '#app') {
+  Vue.config.productionTip = false
+  new Vue({
+    el: ele,
+    template: '<App/>',
+    components: { App }
+  })
+}
+```
 
 > views/home/home.js
->> import render from '@/main'<br>
->> import '@/assets/css/home/home.css'<br>
->> import Home from './Home.vue'<br>
->> render(Home)<br>
+``` bash
+import render from '@/main'
+import '@/assets/css/home/home.css'
+import Home from './Home.vue'
+render(Home)
+```
 
 <br>
 <br>
