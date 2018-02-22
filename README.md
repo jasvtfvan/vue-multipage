@@ -1,6 +1,6 @@
 # vue-multipage
 
-> 基于vue2.5 多页应用，多级目录结构，可灵活配置的static/common.js
+> 基于vue2.5 多页应用，多级目录结构，可灵活配置的static/common.js，webpack3
 
 ## Build Setup 构建过程
 
@@ -21,7 +21,7 @@ npm run build
 npm run build --report
 ```
 
-## directory structure 目录结构
+## directory structure 多级目录结构
 
 ``` bash
 |--- vue-multipage
