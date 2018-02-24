@@ -27,12 +27,12 @@ npm run build --report
   |--- static
     |--- css
     |--- js
-    |--- common.js
+    |--- common.js 可以配置window全局对象等
   |--- views
     |--- home
     |--- setting
-    404.html
-  |--- index.html
+    404.html 404页面
+  |--- index.html 在dist根目录下的index页面
 ```
 
 ## directory structure 多级目录结构
