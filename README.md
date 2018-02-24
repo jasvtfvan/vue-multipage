@@ -21,6 +21,20 @@ npm run build
 npm run build --report
 ```
 
+## dist structure dist目录结构
+``` bash
+|--- dist
+  |--- static
+    |--- css
+    |--- js
+    |--- common.js
+  |--- views
+    |--- home
+    |--- setting
+    404.html
+  |--- index.html
+```
+
 ## directory structure 多级目录结构
 
 ``` bash
