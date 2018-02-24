@@ -118,5 +118,7 @@ render(Home)
 
 <br>
 <br>
-尚未对应博文，敬请谅解，如有疑问或意见，请发送email至 [我的邮箱](jasvtfvan@163.com)
+尚未对应博文，敬请谅解，如有疑问或意见，请发送email至<br>
+[我的邮箱](jasvtfvan@163.com)
+<br>
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
