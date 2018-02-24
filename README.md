@@ -1,6 +1,7 @@
 # vue-multipage
 
-> 基于vue2.5 多页应用，多级目录结构，可灵活配置的static/common.js，webpack3
+> 基于vue2.5 多页应用，多级目录结构，可灵活配置的static/common.js，webpack3，index页面在根目录<br>
+非vue-router，非eslint，尚未加入vux、elment-ui等，目的在于使用者可按需配置
 
 ## Build Setup 构建过程
 
@@ -117,4 +118,5 @@ render(Home)
 
 <br>
 <br>
+尚未对应博文，敬请谅解，如有疑问或意见，请发送email至<jasvtfvan@163.com>
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
